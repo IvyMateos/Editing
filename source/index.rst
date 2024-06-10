@@ -29,9 +29,12 @@ Option 1: Bioconda Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Install mamba using conda 
 
-Here is a code block ::
+::
 
    mamba create -n mercat2 -c conda-forge -c bioconda mercat2
    conda activate mercat2v
 
 ::
+
+.. note::
+   Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
