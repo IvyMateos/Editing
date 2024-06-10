@@ -22,6 +22,5 @@ Indices and tables
 
 subsection
 ~~~~~~~~~~
-
 .. note::
 Ivy Mateos 
