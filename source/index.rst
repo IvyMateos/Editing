@@ -21,6 +21,6 @@ Indices and tables
 
 
 Getting Started 
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. note::
 Ivy Mateos Guevara 
