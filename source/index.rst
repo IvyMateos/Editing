@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ReadTheDocs_Tutorial's documentation!
+Welcome MerCat2!
 ================================================
 
 .. toctree::
@@ -20,7 +20,7 @@ Indices and tables
 * :ref:`search`
 
 
-subsection
+Getting Started 
 ~~~~~~~~~~
 .. note::
-Ivy Mateos 
+There are two different ways of installing mercat2: Bioconda Installer and Source Installer
