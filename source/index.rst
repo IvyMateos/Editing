@@ -23,4 +23,4 @@ Indices and tables
 Getting Started 
 ~~~~~~~~~~
 .. note::
-There are two different ways of installing mercat2: Bioconda Installer and Source Installer
+Ivy Mateos Guevara 
