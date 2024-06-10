@@ -20,8 +20,3 @@ Indices and tables
 * :ref:`search`
 
 
-This is about a software
-
-.. note::
-
-   This is a note about the software.
