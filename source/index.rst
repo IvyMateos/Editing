@@ -20,7 +20,21 @@ Indices and tables
 * :ref:`search`
 
 
+Getting Started
+==================
+.. note::
+There are two different ways of installing mercat2: Bioconda Installer and Source Installer
+
+* Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system
+
 Getting Started 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. note::
-Ivy Mateos Guevara 
+Option 1: Bioconda Installer
+1. Install mamba using conda 
+
+Here is a code block ::
+
+   mamba create -n mercat2 -c conda-forge -c bioconda mercat2
+conda activate mercat2v
+
+::
