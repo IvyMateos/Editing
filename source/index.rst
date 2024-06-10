@@ -5,20 +5,10 @@
 
 Welcome MerCat2!
 ================================================
+|paper| |BioinformaticAdvances| |preprint BioRxiv| |install with bioconda| |Anaconda.org 1.4.1| 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. |paper| image:: https://camo.githubusercontent.com/4e62fbf1240e11569ff5a5a55cfd46dd12aa4dfa41c1edd821f4f887d8e05c61/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70617065722d42696f696e666f726d6174696373416476616e6365732d7465616c2e7376673f7374796c653d666c61742d737175617265266d61784167653d33363030
+   :target: https://doi.org/10.1093/bioadv/vbae061 
 
 Getting Started
 ==================
@@ -27,14 +17,13 @@ There are two different ways of installing mercat2: Bioconda Installer and Sourc
 
 * Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system
 
-Getting Started 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
 Option 1: Bioconda Installer
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Install mamba using conda 
 
 Here is a code block ::
 
    mamba create -n mercat2 -c conda-forge -c bioconda mercat2
-conda activate mercat2v
+   conda activate mercat2v
 
 ::
