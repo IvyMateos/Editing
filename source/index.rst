@@ -43,7 +43,8 @@ Welcome MerCat2!
 ..  |downloads/week| image:: https://camo.githubusercontent.com/67f98fd521ce96ea507aa2a195da3fe30f8850447500fc7976bd513a140c6adc/68747470733a2f2f7374617469632e706570792e746563682f62616467652f6d6572636174322f7765656b
    :target: https://pepy.tech/project/mercat2 
 
-Getting Started
+
+Getting Started 
 ==================
 
 There are two different ways of installing mercat2: Bioconda Installer and Source Installer
@@ -62,3 +63,12 @@ Option 1: Bioconda Installer
 
 
 Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
+
+2. Install MerCat2 
+This step is done via Bioconda 
+::
+
+   mamba create -n mercat2 -c conda-forge -c bioconda mercat2
+   conda activate mercat2
+
+::
