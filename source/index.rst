@@ -65,7 +65,7 @@ Option 1: Bioconda Installer
 Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
 
 2. Install MerCat2 
-This step is done via Bioconda 
+This step is done via Bioconda git reset --hard <commit-hash>
 ::
 
    mamba create -n mercat2 -c conda-forge -c bioconda mercat2
