@@ -149,13 +149,26 @@ usage: mercat2.py  [-h] [-i I [I ...]] [-f F] -k K [-n N] [-c C] [-prod] [-fgs] 
 
 Example: mercat2.py -h 
 
-============= ================================
+============= ================================================================================================
 Options:      Description
-============= ================================
-::
-   -h, --help Shows this help message and exit 
-::
-============= ================================
+============= ================================================================================================ 
+-h, --help	   Shows this help message and exit
+-i I [I ...] 	Path to input file(s)
+-f F 	         Path to folder containing input files
+-k K  	      kmer length
+-n N 	         No of cores [auto detect]
+-c C  	      Minimum kmer count [10]
+-prod 	      Run Prodigal on fasta files
+-fgs  	      Run FragGeneScanRS on fasta files
+-s S 	         Split into x MB files. [100]
+-o O  	      Output folder, default = 'mercat_results' in current directory
+-replace 	   Replace existing output directory [False]
+-lowmem LOWMEM Flag to use incremental PCA when low memory is available. [auto]
+-skipclean 	   Skip trimming of fastq files
+-toupper  	   Convert all input sequences to uppercase
+-pca 	         Create interactive PCA plot of the samples (minimum of 4 fasta files required)
+--version, -v	Show the version number and exit
+============= ================================================================================================
 
 
 
