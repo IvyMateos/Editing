@@ -44,8 +44,8 @@ Welcome MerCat2!
    :target: https://pepy.tech/project/mercat2 
 
 
-.. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.pdf 
-   :width: 600
+.. .. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.pdf 
+..    :width: 600
 
 Getting Started 
 ==================
