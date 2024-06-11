@@ -259,7 +259,6 @@ If you are publishing results obtained using MerCat2, please cite:
 Figueroa JL*, Redinbo A*, Panyala A, Colby S, Friesen M, Tiemann L, White III RA. 2024.
 MerCat2: a versatile k-mer counter and diversity estimator for database-independent property analysis obtained from omics data
 Bioinformatics Advances, vbae061 `Bioinformatics Advances <https://doi.org/10.1093/bioadv/vbae061>`_  
-
 *Co-first authors
 
 BioRxiv pre-print
