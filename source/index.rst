@@ -149,9 +149,9 @@ usage: mercat2.py  [-h] [-i I [I ...]] [-f F] -k K [-n N] [-c C] [-prod] [-fgs] 
 
 Example: mercat2.py -h 
 
-============
-|Grid table|
-============
+============ ============
+Grid table   Mateos 
+============ ============
 
 
 Mercat2 assumes the input file format based on the extension provided 
