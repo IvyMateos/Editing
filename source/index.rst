@@ -265,6 +265,7 @@ The star indicates* Co-first authors
 BioRxiv pre-print
 Figueroa JL, Panyala A, Colby S, Friesen M, Tiemann L, White III RA. 2022.
 MerCat2: a versatile k-mer counter and diversity estimator for database-independent property analysis obtained from omics data.
+
 `bioRxiv <https://www.biorxiv.org/content/10.1101/2022.11.22.517562v1>`_
 
 Copywrite
