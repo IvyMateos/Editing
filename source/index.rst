@@ -136,3 +136,30 @@ Notes on memory usage and speed
 
 Note:
 The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.
+
+Options for using Mercat2 
+=============================
+
+Usage  
+~~~~~~~~~~~~~~
+
+These different options that can be used with mercat2.py 
+
+usage: mercat2.py  [-h] [-i I [I ...]] [-f F] -k K [-n N] [-c C] [-prod] [-fgs] [-s S] [-o O] [-replace] [-lowmem LOWMEM] [-skipclean] [-toupper] [-pca] [--version]
+
+Example: mercat2.py -h 
+
++-------+----------+--------+
+| Grid table| ivy | mateos |
++============+=======+========+
+|c1|C2|c3|
++-----+-----+----------+
+
+
+Mercat2 assumes the input file format based on the extension provided 
+
+* Raw fastq file: ['.fastq', '.fq']
+* Nucleotide fasta: ['.fa', '.fna', '.ffn', '.fasta']
+* Amino acid fasta: ['.faa']
+* It also accepts gzipped versions of these filetypes with the added '.gz' suffix
+
