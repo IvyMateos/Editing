@@ -106,3 +106,6 @@ Required dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~
 * When raw read .fastq is given 
    - `Fastqc <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`_
+   - `Fastp <https://github.com/OpenGene/fastp>`_
+* For bacteria/archaea rich samples (-prod option)
+   - `Prodigcal <https://github.com/hyattpd/Prodigal>`_
