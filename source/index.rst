@@ -179,3 +179,17 @@ Mercat2 assumes the input file format based on the extension provided
 * Amino acid fasta: ['.faa']
 * It also accepts gzipped versions of these filetypes with the added '.gz' suffix
 
+
+Usage Examples 
+~~~~~~~~~~~~~~
+
+.. csv-table::
+   :header: "Type", "Script"
+   :widths: 20, 70
+
+   "Protein file (protein fasta - '.faa')", "mercat2.py -i file-name.faa -k 3 -c 10"
+   "Nucleotide file (nucleotide fasta - '.fa', '.fna', '.ffn', '.fasta')", "mercat2.py -i file-name.fna -k 3 -n 8 -c 10"
+   "Nucleotide file raw data (nucleotide fastq - '.fastq')", "mercat2.py -i file-name.fastq -k 3 -n 8 -c 10"
+   "Many samples within a folder", "mercat2.py -f /path/to/input-folder -k 3 -n 8 -c 10"
+   "Sample with prodigal option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -prod"
+   "Sample with FragGeneScanRS option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -fgs"
