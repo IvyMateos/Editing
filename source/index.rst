@@ -46,7 +46,7 @@ Welcome MerCat2!
 
 .. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.jpg 
    :width: 600
-   
+
 Getting Started 
 ==================
 
@@ -91,3 +91,18 @@ This script creates a conda environment for you
 
 ::
 
+Running Mercat2 
+==================
+
+Dependencies 
+~~~~~~~~~~~~~~~
+MerCat2 runs on python version 3.9 and higher.
+
+External Dependencies 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+MerCat2 can run without external dependencies based on the options used.
+
+Required dependencies 
+~~~~~~~~~~~~~~~~~~~~~~~~
+* When raw read .fastq is given 
+   - `Fastqc <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`_
