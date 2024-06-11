@@ -193,3 +193,57 @@ Usage Examples
    "Many samples within a folder", "mercat2.py -f /path/to/input-folder -k 3 -n 8 -c 10"
    "Sample with prodigal option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -prod"
    "Sample with FragGeneScanRS option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -fgs"
+
+
+Note: The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids
+
+Outputs 
+=========
+
+Output Folders
+~~~~~~~~~~~~~~~~~~~~
+
+Results are stored in the output folder (default 'mercat_results' of the current working directory)
+
+* The 'report' folder contains an html report with interactive plotly figures
+   - If at least 4 samples are provided a PCA plot will be included in the html report
+
+* The 'tsv' folder contains counts tables in tab separated format
+   - If protein files are given, or the -prod  option, a .tsv file is created for each sample containing k-mer count, pI, Molecular Weight, and Hydrophobicity metrics
+   - If nucleotide files are given a .tsv file is created for each sample containing k-mer count and GC content
+
+* If .fastq raw reads files are used, a 'clean' folder is created with the clean fasta file.
+
+* If the  -prod option is used, a 'prodigal' folder is created with the amino acid .faa and .gff files
+
+* If the  -fgs option is used, a 'fgs' folder is created with the amino acid .faa file
+
+
+Diversity Estimation
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+.. csv-table::
+   :header: "Alpha diversity metrics provided", "Beta diversity metrics provided"
+   :widths: 20, 20
+
+   "shannon", "euclidean"
+   "simpson", "cityblock"
+   "simpson_e", "braycurtis"
+   "goods_coverage", "canberra"
+   "fisher_alpha", "chebyshev"
+   "dominance", "correlation"
+   "chao1", "cosine"
+   "chao1_ci", "dice"
+   "ace", "hamming"
+   "jaccard", "mahalanobis"
+   "mahalanobis", "manhattan (same as City Block in this case)"
+   "matching", "minkowski"
+   "minkowski", "rogerstanimoto"
+   "rogerstanimoto", "russellrao"
+   "seuclidean", "sokalmichener"
+   "sokalmichener", "sokalsneath"
+   "sokalsneath", "sqeuclidean"
+   "sqeuclidean", "yule"
+
+
