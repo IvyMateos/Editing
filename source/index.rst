@@ -111,7 +111,7 @@ Required dependencies
 * For bacteria/archaea rich samples (-prod option)
    - `Prodigcal <https://github.com/hyattpd/Prodigal>`_
 * For eukaryote rich samples or general applications (-fgs option)
-   - `FragGeneScanRs <https://github.com/unipept/FragGeneScanRs>_ 
+   - `FragGeneScanRs <https://github.com/unipept/FragGeneScanRs>`_ 
 
 * Use this script for FragGeneScanRs
 
