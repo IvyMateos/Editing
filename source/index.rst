@@ -153,7 +153,7 @@ Example: mercat2.py -h
   :header: "Option", "Description"
   :widths: 30, 70
 
-  * "-h, --help" 
+  * "-h, --help, --help" 
     Shows this help message and exit
   * "-i I [I ...]" 
     Path to input file(s)
