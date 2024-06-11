@@ -109,3 +109,29 @@ Required dependencies
    - `Fastp <https://github.com/OpenGene/fastp>`_
 * For bacteria/archaea rich samples (-prod option)
    - `Prodigcal <https://github.com/hyattpd/Prodigal>`_
+* For eukaryote rich samples or general applications (-fgs option)
+   - `FragGeneScanRs <https://github.com/unipept/FragGeneScanRs>_ 
+
+* Use this script for FragGeneScanRs
+
+::
+
+   conda install -c bioconda fastqc fastp prodigal
+
+::
+
+Note: 
+These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
+
+
+Notes on memory usage and speed  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* MerCat2 uses a substantial amount of memory when the k-mer is high
+* Running MerCat2 on a personal computer using a k-mer length of ~4 should be OK
+* Total memory usage can be reduced using the Chunker feature (-s option), but keep in mind that in testing when the chunk size is too small (1MB) some of the least significant k-mers will get lost.
+* This does not seem to affect the overall results, but it is something to keep in mind. Using the chunker and reducing the number of CPUs available (-noption) can help reduce memory requirements.
+
+
+Note:
+The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.
