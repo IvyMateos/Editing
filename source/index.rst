@@ -3,6 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :numbered: 6
+
+   Getting Started
+   Running Mercat2
+   Options for using Mercat2 
+   Outputs
+   Citations and Copywrite
+   
+
+
+
+
+
 Welcome MerCat2!
 ================================================
 |paper| |preprint| |install with| |Anaconda.org| |Last updated| |last updated| |Platforms| |license| |Downloads| |downloads| |downloads/month| |downloads/week|
@@ -46,7 +60,7 @@ Welcome MerCat2!
 
 .. .. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.pdf 
 ..    :width: 600
-
+.. add picture here 
 Getting Started 
 ==================
 
@@ -218,6 +232,7 @@ Results are stored in the output folder (default 'mercat_results' of the current
 
 * If the  -fgs option is used, a 'fgs' folder is created with the amino acid .faa file
 
+.. add picture here
 
 Diversity Estimation
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -272,3 +287,5 @@ Copywrite
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is copyrighted by University of North Carolina at Charlotte, Jose L. Figueroa III, Andrew Redinbo, and Richard Allen White III. All rights reserved. DeGenPrime is a bioinformatic tool that can be distributed freely for academic use only. Please contact us for commerical use. The software is provided “as is” and the copyright owners or contributors are not liable for any direct, indirect, incidental, special, or consequential damages including but not limited to, procurement of goods or services, loss of use, data or profits arising in any way out of the use of this software.
+
+
