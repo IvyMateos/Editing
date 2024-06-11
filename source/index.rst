@@ -260,7 +260,7 @@ Figueroa JL*, Redinbo A*, Panyala A, Colby S, Friesen M, Tiemann L, White III RA
 MerCat2: a versatile k-mer counter and diversity estimator for database-independent property analysis obtained from omics data
 Bioinformatics Advances, vbae061 `Bioinformatics Advances <https://doi.org/10.1093/bioadv/vbae061>`_  
 
-*Co-first authors
+The star indicates* Co-first authors
 
 BioRxiv pre-print
 Figueroa JL, Panyala A, Colby S, Friesen M, Tiemann L, White III RA. 2022.
