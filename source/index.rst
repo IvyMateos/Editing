@@ -51,9 +51,9 @@ Getting Started
 ==================
 
 There are two different ways of installing mercat2: Bioconda Installer and Source Installer
-.. !Note::
+.. note::
    Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system
-
+::
 Option 1: Bioconda Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Install mamba using conda 
@@ -64,8 +64,8 @@ Option 1: Bioconda Installer
    conda activate mercat2v
 
 ::
-.. !Important::
-   Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
+
+Important: Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
 
 2. Install MerCat2 
 This step is done via Bioconda git reset --hard <commit-hash>
@@ -119,8 +119,8 @@ Required dependencies
    conda install -c bioconda fastqc fastp prodigal
 
 ::
-.. !Note::
-   These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
+
+Note: These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
 
 
 Notes on memory usage and speed  
@@ -132,8 +132,8 @@ Notes on memory usage and speed
 * This does not seem to affect the overall results, but it is something to keep in mind. Using the chunker and reducing the number of CPUs available (-noption) can help reduce memory requirements.
 
 
-.. !Note::
-   The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.
+
+Note: The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.
 
 Options for using Mercat2 
 =============================
@@ -190,12 +190,11 @@ Usage Examples
    "Many samples within a folder", "mercat2.py -f /path/to/input-folder -k 3 -n 8 -c 10"
    "Sample with prodigal option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -prod"
    "Sample with FragGeneScanRS option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -fgs"
-Usage Examples 
-~~~~~~~~~~~~~~
 
 
-.. Note::
-   The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids
+
+
+Note: The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids
 
 Outputs 
 =========
