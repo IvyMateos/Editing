@@ -11,8 +11,6 @@
    Options for using Mercat2 
    Outputs
    Citations and Copywrite
-   
-
 
 
 
@@ -58,9 +56,9 @@ Welcome MerCat2!
    :target: https://pepy.tech/project/mercat2 
 
 
-.. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.png 
-   :width: 600
-
+.. .. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.pdf 
+..    :width: 600
+.. add picture here 
 Getting Started 
 ==================
 
