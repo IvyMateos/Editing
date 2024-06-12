@@ -195,17 +195,42 @@ Mercat2 assumes the input file format based on the extension provided
 Usage Examples 
 ~~~~~~~~~~~~~~
 
+Usage Examples 
+~~~~~~~~~~~~~~
+
 .. csv-table::
    :header: "Type", "Script"
    :widths: 20, 70
 
-   "Protein file (protein fasta - '.faa')", "mercat2.py -i file-name.faa -k 3 -c 10"
-   "Nucleotide file (nucleotide fasta - '.fa', '.fna', '.ffn', '.fasta')", "mercat2.py -i file-name.fna -k 3 -n 8 -c 10"
-   "Nucleotide file raw data (nucleotide fastq - '.fastq')", "mercat2.py -i file-name.fastq -k 3 -n 8 -c 10"
-   "Many samples within a folder", "mercat2.py -f /path/to/input-folder -k 3 -n 8 -c 10"
-   "Sample with prodigal option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -prod"
-   "Sample with FragGeneScanRS option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -fgs"
+   "Protein file (protein fasta - '.faa')", 
+   .. code-block:: bash
 
+      mercat2.py -i file-name.faa -k 3 -c 10
+
+   "Nucleotide file (nucleotide fasta - '.fa', '.fna', '.ffn', '.fasta')", 
+   .. code-block:: bash
+
+      mercat2.py -i file-name.fna -k 3 -n 8 -c 10
+
+   "Nucleotide file raw data (nucleotide fastq - '.fastq')", 
+   .. code-block:: bash
+
+      mercat2.py -i file-name.fastq -k 3 -n 8 -c 10
+
+   "Many samples within a folder", 
+   .. code-block:: bash
+
+      mercat2.py -f /path/to/input-folder -k 3 -n 8 -c 10
+
+   "Sample with prodigal option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", 
+   .. code-block:: bash
+
+      mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -prod
+
+   "Sample with FragGeneScanRS option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", 
+   .. code-block:: bash
+
+      mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -fgs
 
 Note: The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids
 
@@ -287,3 +312,13 @@ Copywrite
 This is copyrighted by University of North Carolina at Charlotte, Jose L. Figueroa III, Andrew Redinbo, and Richard Allen White III. All rights reserved. DeGenPrime is a bioinformatic tool that can be distributed freely for academic use only. Please contact us for commerical use. The software is provided “as is” and the copyright owners or contributors are not liable for any direct, indirect, incidental, special, or consequential damages including but not limited to, procurement of goods or services, loss of use, data or profits arising in any way out of the use of this software.
 
 
+.. csv-table::
+   :header: "Type", "Script"
+   :widths: 20, 70
+
+   "Protein file (protein fasta - '.faa')", "mercat2.py -i file-name.faa -k 3 -c 10"
+   "Nucleotide file (nucleotide fasta - '.fa', '.fna', '.ffn', '.fasta')", "mercat2.py -i file-name.fna -k 3 -n 8 -c 10"
+   "Nucleotide file raw data (nucleotide fastq - '.fastq')", "mercat2.py -i file-name.fastq -k 3 -n 8 -c 10"
+   "Many samples within a folder", "mercat2.py -f /path/to/input-folder -k 3 -n 8 -c 10"
+   "Sample with prodigal option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -prod"
+   "Sample with FragGeneScanRS option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -fgs"
