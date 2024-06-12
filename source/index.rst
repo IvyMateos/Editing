@@ -194,7 +194,7 @@ Usage Examples
 ~~~~~~~~~~~~~~
 
 
-.. !Note::
+.. Note::
    The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids
 
 Outputs 
