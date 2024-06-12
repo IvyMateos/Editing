@@ -46,7 +46,7 @@ Welcome MerCat2!
 
 .. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.jpg?raw=true
    :width: 600
-add picture here 
+
 Getting Started 
 ==================
 
@@ -221,6 +221,9 @@ Results are stored in the output folder (default 'mercat_results' of the current
 
 Diversity Estimation
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://github.com/raw-lab/mercat2/raw/master/doc/PCA.png
+   :width: 600
 
 
 .. csv-table::
