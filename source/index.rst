@@ -44,9 +44,9 @@ Welcome MerCat2!
    :target: https://pepy.tech/project/mercat2 
 
 
-.. .. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.pdf 
-..    :width: 600
-.. add picture here 
+.. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.pdf 
+   :width: 600
+add picture here 
 Getting Started 
 ==================
 
@@ -64,7 +64,6 @@ Option 1: Bioconda Installer
    conda activate mercat2v
 
 ::
-
 
 Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
 
@@ -120,7 +119,6 @@ Required dependencies
    conda install -c bioconda fastqc fastp prodigal
 
 ::
-
 Note: 
 These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
 
