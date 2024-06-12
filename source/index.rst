@@ -222,7 +222,7 @@ Results are stored in the output folder (default 'mercat_results' of the current
 Diversity Estimation
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://github.com/raw-lab/mercat2/raw/master/doc/PCA.png
+.. image:: https://raw.githubusercontent.com/raw-lab/mercat2/master/doc/PCA.png
    :width: 600
 
 
