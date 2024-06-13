@@ -145,7 +145,7 @@ Options for using Mercat2
 Usage  
 ~~~~~~~~~~~~~~
 
-These different options that can be used with mercat2.py 
+These are the different options that can be used with mercat2.py 
 
 usage: mercat2.py  [-h] [-i I [I ...]] [-f F] -k K [-n N] [-c C] [-prod] [-fgs] [-s S] [-o O] [-replace] [-lowmem LOWMEM] [-skipclean] [-toupper] [-pca] [--version]
 
