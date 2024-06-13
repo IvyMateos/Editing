@@ -52,8 +52,9 @@ Getting Started
 
 There are two different ways of installing mercat2: Bioconda Installer and Source Installer
 
-Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system
+.. note::
 
+    Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system.
 Option 1: Bioconda Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Install mamba using conda 
