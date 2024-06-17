@@ -65,7 +65,7 @@ Option 1: Bioconda Installer
    conda activate mercat2v
 
 ::
-.. important::
+.. note::
 
     Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
 
