@@ -13,7 +13,7 @@ author = 'Author'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -28,3 +28,10 @@ html_static_path = ['_static']
 html_theme_options = {
     'navigation_depth': 4,
 }
+
+extensions = [
+   'sphinx.ext.duration',
+   'sphinx.ext.doctest',
+   'sphinx.ext.autodoc',
+   'sphinx.ext.autosummary',
+]
