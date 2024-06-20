@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :maxdepth: 1
+
+   
 Welcome MerCat2!
 ================================================
 |paper| |preprint| |install with| |Anaconda.org| |Last updated| |last updated| |Platforms| |license| |Downloads| |downloads| |downloads/month| |downloads/week|
