@@ -1,5 +1,5 @@
 .. toctree::
    :maxdepth: 2
 
-   new-page
-   
+
+New page for tutorial 
