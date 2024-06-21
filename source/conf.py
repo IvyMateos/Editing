@@ -51,8 +51,8 @@ multiproject_projects = {
     },
 }
 
- .. toctree::
-    :maxdepth: 2
-    :caption: Contents:
- 
-    new-page
+.. toctree::
+   :maxdepth: 2
+   :caption: Ivy 
+   :contents:
+   new-page
