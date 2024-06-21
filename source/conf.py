@@ -6,6 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+
 project = 'ReadTheDocs_Tutorial'
 copyright = '2024, Author'
 author = 'Author'
@@ -34,6 +35,7 @@ extensions = [
    'sphinx.ext.doctest',
    'sphinx.ext.autodoc',
    'sphinx.ext.autosummary',
+   'sphinx.ext.intersphinx',
 ]
 
 multiproject_projects = {
@@ -51,8 +53,16 @@ multiproject_projects = {
     },
 }
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Ivy 
-   :contents:
-   new-page
+from sphinxcontrib.tikz import tikz
+
+# Define the table of contents items
+toc_items = [
+    {
+        'title': 'Ivy',
+        'pages': ['new-page']
+    }
+]
+
+# Generate the table of contents
+toc = tikz.TikzPicture()
+toc.add_toc(toc_items, maxdepth=2, caption='Ivy')
