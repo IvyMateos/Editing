@@ -38,20 +38,7 @@ extensions = [
    'sphinx.ext.intersphinx',
 ]
 
-multiproject_projects = {
-    "user": {
-        "use_config_file": False,
-        "config": {
-            "project": "Read the Docs user documentation",
-        },
-    },
-    "dev": {
-        "use_config_file": False,
-        "config": {
-            "project": "Read the Docs developer documentation",
-        },
-    },
-}
+
 
 from sphinxcontrib.tikz import tikz
 
