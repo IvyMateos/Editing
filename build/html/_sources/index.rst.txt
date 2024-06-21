@@ -3,6 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :maxdepth: 2
+
+   page1
+   page2
+
+
+
+   
 Welcome MerCat2!
 ================================================
 |paper| |preprint| |install with| |Anaconda.org| |Last updated| |last updated| |Platforms| |license| |Downloads| |downloads| |downloads/month| |downloads/week|
@@ -44,16 +53,17 @@ Welcome MerCat2!
    :target: https://pepy.tech/project/mercat2 
 
 
-.. .. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.pdf 
-..    :width: 600
-.. add picture here 
+.. image:: https://github.com/raw-lab/mercat2/blob/master/MerCat2.jpg?raw=true
+   :width: 600
+
 Getting Started 
 ==================
 
 There are two different ways of installing mercat2: Bioconda Installer and Source Installer
 
-* Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system
+.. note::
 
+    Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system.
 Option 1: Bioconda Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Install mamba using conda 
@@ -65,8 +75,10 @@ Option 1: Bioconda Installer
 
 ::
 
+.. note::
 
-Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
+    Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
+    
 
 2. Install MerCat2 
 This step is done via Bioconda git reset --hard <commit-hash>
@@ -76,7 +88,6 @@ This step is done via Bioconda git reset --hard <commit-hash>
    conda activate mercat2
 
 ::
-
 Option 2: Source Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Clone mercat2 from github
@@ -120,8 +131,7 @@ Required dependencies
    conda install -c bioconda fastqc fastp prodigal
 
 ::
-
-Note: 
+   
 These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
 
 
@@ -134,8 +144,9 @@ Notes on memory usage and speed
 * This does not seem to affect the overall results, but it is something to keep in mind. Using the chunker and reducing the number of CPUs available (-noption) can help reduce memory requirements.
 
 
-Note:
-The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.
+.. note::
+
+    The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.
 
 Options for using Mercat2 
 =============================
@@ -143,7 +154,7 @@ Options for using Mercat2
 Usage  
 ~~~~~~~~~~~~~~
 
-These different options that can be used with mercat2.py 
+These are the different options that can be used with mercat2.py 
 
 usage: mercat2.py  [-h] [-i I [I ...]] [-f F] -k K [-n N] [-c C] [-prod] [-fgs] [-s S] [-o O] [-replace] [-lowmem LOWMEM] [-skipclean] [-toupper] [-pca] [--version]
 
@@ -192,11 +203,13 @@ Usage Examples
    "Many samples within a folder", "mercat2.py -f /path/to/input-folder -k 3 -n 8 -c 10"
    "Sample with prodigal option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -prod"
    "Sample with FragGeneScanRS option (raw reads or nucleotide contigs - '.fa', '.fna', '.ffn', '.fasta', '.fastq')", "mercat2.py -i /path/to/input-file -k 3 -n 8 -c 10 -fgs"
-Usage Examples 
-~~~~~~~~~~~~~~
 
 
-Note: The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids
+
+
+.. note::
+
+    The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids
 
 Outputs 
 =========
@@ -223,6 +236,9 @@ Results are stored in the output folder (default 'mercat_results' of the current
 
 Diversity Estimation
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://raw.githubusercontent.com/raw-lab/mercat2/master/doc/PCA.png
+   :width: 600
 
 
 .. csv-table::
@@ -274,4 +290,6 @@ Copywrite
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is copyrighted by University of North Carolina at Charlotte, Jose L. Figueroa III, Andrew Redinbo, and Richard Allen White III. All rights reserved. DeGenPrime is a bioinformatic tool that can be distributed freely for academic use only. Please contact us for commerical use. The software is provided “as is” and the copyright owners or contributors are not liable for any direct, indirect, incidental, special, or consequential damages including but not limited to, procurement of goods or services, loss of use, data or profits arising in any way out of the use of this software.
+
+
 

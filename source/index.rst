@@ -4,7 +4,12 @@
    contain the root `toctree` directive.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+
+   page1
+   page2
+
+
 
    
 Welcome MerCat2!
@@ -83,7 +88,6 @@ This step is done via Bioconda git reset --hard <commit-hash>
    conda activate mercat2
 
 ::
-
 Option 2: Source Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Clone mercat2 from github
@@ -289,11 +293,3 @@ This is copyrighted by University of North Carolina at Charlotte, Jose L. Figuer
 
 
 
-
-Contents
---------
-
-.. toctree::
-
-   usage
-   api

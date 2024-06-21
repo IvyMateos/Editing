@@ -47,7 +47,6 @@
 <li><a class="reference internal" href="#">Welcome MerCat2!</a></li>
 <li><a class="reference internal" href="#getting-started">Getting Started</a><ul>
 <li><a class="reference internal" href="#option-1-bioconda-installer">Option 1: Bioconda Installer</a></li>
-<li><a class="reference internal" href="#option-2-source-installer">Option 2: Source Installer</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#running-mercat2">Running Mercat2</a><ul>
@@ -60,7 +59,6 @@
 <li><a class="reference internal" href="#options-for-using-mercat2">Options for using Mercat2</a><ul>
 <li><a class="reference internal" href="#usage">Usage</a></li>
 <li><a class="reference internal" href="#usage-examples">Usage Examples</a></li>
-<li><a class="reference internal" href="#id1">Usage Examples</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#outputs">Outputs</a><ul>
@@ -99,16 +97,20 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="welcome-mercat2">
+  <div class="toctree-wrapper compound">
+</div>
+<section id="welcome-mercat2">
 <h1>Welcome MerCat2!<a class="headerlink" href="#welcome-mercat2" title="Link to this heading"></a></h1>
 <p><a class="reference external" href="https://doi.org/10.1093/bioadv/vbae061"><img alt="paper" src="https://camo.githubusercontent.com/4e62fbf1240e11569ff5a5a55cfd46dd12aa4dfa41c1edd821f4f887d8e05c61/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70617065722d42696f696e666f726d6174696373416476616e6365732d7465616c2e7376673f7374796c653d666c61742d737175617265266d61784167653d33363030" /></a> <a class="reference external" href="https://doi.org/10.1101/2022.11.22.517562"><img alt="preprint" src="https://camo.githubusercontent.com/4b1ce666560094f833328c23d008ff7aa59e483db5f38e2aa2c6fd9e58f133e7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7072657072696e742d42696f527869762d7265642e7376673f7374796c653d666c61742d737175617265266d61784167653d33363030" /></a> <a class="reference external" href="http://bioconda.github.io/recipes/mercat2/README.html"><img alt="install with" src="https://camo.githubusercontent.com/2b3da1f4ac43c9ff4aa3151c2ea27dd4d00f147e01dfb55225b08b1cbc284774/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f696e7374616c6c253230776974682d62696f636f6e64612d627269676874677265656e2e7376673f7374796c653d666c6174" /></a> <a class="reference external" href="https://anaconda.org/bioconda/mercat2"><img alt="Anaconda.org" src="https://camo.githubusercontent.com/8c1a83f3189c641f0f819a71dae7cabf3f7a002314f13621efba4d450a06d8a4/68747470733a2f2f616e61636f6e64612e6f72672f62696f636f6e64612f6d6572636174322f6261646765732f76657273696f6e2e737667" /></a> <a class="reference external" href="https://anaconda.org/bioconda/mercat2"><img alt="Last updated" src="https://camo.githubusercontent.com/ea29e40bfb15292c35d60919e24035ef541a309047f53a7f24b1b72798a5c0d4/68747470733a2f2f616e61636f6e64612e6f72672f62696f636f6e64612f6d6572636174322f6261646765732f6c61746573745f72656c656173655f646174652e737667" /></a> <a class="reference external" href="https://anaconda.org/bioconda/mercat2"><img alt="last updated" src="https://camo.githubusercontent.com/d1326f3d872ad8a6bb39ea6bebddc2d8440d8d918152f809326f33fa67941bf7/68747470733a2f2f616e61636f6e64612e6f72672f62696f636f6e64612f6d6572636174322f6261646765732f6c61746573745f72656c656173655f72656c61746976655f646174652e737667" /></a> <a class="reference external" href="https://anaconda.org/bioconda/mercat2"><img alt="Platforms" src="https://camo.githubusercontent.com/8741ef138a4ddda6adc435f3e84f64e608d4ca7d424f0fd62fd95bc240267de5/68747470733a2f2f616e61636f6e64612e6f72672f62696f636f6e64612f6d6572636174322f6261646765732f706c6174666f726d732e737667" /></a> <a class="reference external" href="https://anaconda.org/bioconda/mercat2"><img alt="license" src="https://camo.githubusercontent.com/ee552931b73896308a277e32be730377a4376610365ef0dc58a61f500426a5a6/68747470733a2f2f616e61636f6e64612e6f72672f62696f636f6e64612f6d6572636174322f6261646765732f6c6963656e73652e737667" /></a> <a class="reference external" href="https://anaconda.org/bioconda/mercat2"><img alt="Downloads" src="https://camo.githubusercontent.com/01b40ed4b155269d1cffae11c7b4a8c55403b452281e55fbec22b29fab76a20d/68747470733a2f2f616e61636f6e64612e6f72672f62696f636f6e64612f6d6572636174322f6261646765732f646f776e6c6f6164732e737667" /></a> <a class="reference external" href="https://pepy.tech/project/mercat2"><img alt="downloads" src="https://camo.githubusercontent.com/74e56c6c0f62d5906fa442b38250ce6ab586ef15cac8be93e872e6446ec5cdfd/68747470733a2f2f7374617469632e706570792e746563682f62616467652f6d657263617432" /></a> <a class="reference external" href="https://pepy.tech/project/mercat2"><img alt="downloads/month" src="https://camo.githubusercontent.com/e1152b598d7f78fe56f7e7c79aad8c9263bf78cba4b532018fd39652569129f4/68747470733a2f2f7374617469632e706570792e746563682f62616467652f6d6572636174322f6d6f6e7468" /></a> <a class="reference external" href="https://pepy.tech/project/mercat2"><img alt="downloads/week" src="https://camo.githubusercontent.com/67f98fd521ce96ea507aa2a195da3fe30f8850447500fc7976bd513a140c6adc/68747470733a2f2f7374617469632e706570792e746563682f62616467652f6d6572636174322f7765656b" /></a></p>
+<a class="reference internal image-reference" href="https://github.com/raw-lab/mercat2/blob/master/MerCat2.jpg?raw=true"><img alt="https://github.com/raw-lab/mercat2/blob/master/MerCat2.jpg?raw=true" src="https://github.com/raw-lab/mercat2/blob/master/MerCat2.jpg?raw=true" style="width: 600px;" /></a>
 </section>
 <section id="getting-started">
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h1>
 <p>There are two different ways of installing mercat2: Bioconda Installer and Source Installer</p>
-<ul class="simple">
-<li><p>Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system</p></li>
-</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Installing Conda should be done first before running any of these options on the terminal, download Conda to install the latest verison to your system.</p>
+</div>
 <section id="option-1-bioconda-installer">
 <h2>Option 1: Bioconda Installer<a class="headerlink" href="#option-1-bioconda-installer" title="Link to this heading"></a></h2>
 <ol class="arabic simple">
@@ -118,20 +120,23 @@
 <span class="n">conda</span> <span class="n">activate</span> <span class="n">mercat2v</span>
 </pre></div>
 </div>
-<p>Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">note</span><span class="p">::</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies.</p>
+</div></blockquote>
 <p>2. Install MerCat2
 This step is done via Bioconda git reset –hard &lt;commit-hash&gt;</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">mercat2</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="o">-</span><span class="n">c</span> <span class="n">bioconda</span> <span class="n">mercat2</span>
 <span class="n">conda</span> <span class="n">activate</span> <span class="n">mercat2</span>
 </pre></div>
 </div>
-</section>
-<section id="option-2-source-installer">
-<h2>Option 2: Source Installer<a class="headerlink" href="#option-2-source-installer" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Clone mercat2 from github</p></li>
-<li><p>Run install_mercat2.sh to install all required dependencies</p></li>
-</ol>
+<p>::
+Option 2: Source Installer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Clone mercat2 from github
+2. Run install_mercat2.sh to install all required dependencies</p>
 <p>This script creates a conda environment for you</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">raw</span><span class="o">-</span><span class="n">lab</span><span class="o">/</span><span class="n">mercat2</span><span class="o">.</span><span class="n">git</span>
 <span class="n">cd</span> <span class="n">mercat2</span>
@@ -181,8 +186,7 @@ This step is done via Bioconda git reset –hard &lt;commit-hash&gt;</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">bioconda</span> <span class="n">fastqc</span> <span class="n">fastp</span> <span class="n">prodigal</span>
 </pre></div>
 </div>
-<p>Note:
-These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.</p>
+<p>These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.</p>
 </section>
 <section id="notes-on-memory-usage-and-speed">
 <h2>Notes on memory usage and speed<a class="headerlink" href="#notes-on-memory-usage-and-speed" title="Link to this heading"></a></h2>
@@ -192,15 +196,17 @@ These are available through Bioconda, except FragGeneScanRs, which is included i
 <li><p>Total memory usage can be reduced using the Chunker feature (-s option), but keep in mind that in testing when the chunk size is too small (1MB) some of the least significant k-mers will get lost.</p></li>
 <li><p>This does not seem to affect the overall results, but it is something to keep in mind. Using the chunker and reducing the number of CPUs available (-noption) can help reduce memory requirements.</p></li>
 </ul>
-<p>Note:
-The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The speed of MerCat2 can be increased when more memory or computer nodes are available on a cluster and using a chunk size of ~ 100Mb.</p>
+</div>
 </section>
 </section>
 <section id="options-for-using-mercat2">
 <h1>Options for using Mercat2<a class="headerlink" href="#options-for-using-mercat2" title="Link to this heading"></a></h1>
 <section id="usage">
 <h2>Usage<a class="headerlink" href="#usage" title="Link to this heading"></a></h2>
-<p>These different options that can be used with mercat2.py</p>
+<p>These are the different options that can be used with mercat2.py</p>
 <p>usage: mercat2.py  [-h] [-i I [I …]] [-f F] -k K [-n N] [-c C] [-prod] [-fgs] [-s S] [-o O] [-replace] [-lowmem LOWMEM] [-skipclean] [-toupper] [-pca] [–version]</p>
 <p>Example: mercat2.py -h</p>
 <table class="docutils align-default">
@@ -305,10 +311,10 @@ The speed of MerCat2 can be increased when more memory or computer nodes are ava
 </tr>
 </tbody>
 </table>
-</section>
-<section id="id1">
-<h2>Usage Examples<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Note: The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The prodigal and FragGeneScanRS options run the k-mer counter on both contigs and produced amino acids</p>
+</div>
 </section>
 </section>
 <section id="outputs">
@@ -339,6 +345,7 @@ The speed of MerCat2 can be increased when more memory or computer nodes are ava
 </section>
 <section id="diversity-estimation">
 <h2>Diversity Estimation<a class="headerlink" href="#diversity-estimation" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="https://raw.githubusercontent.com/raw-lab/mercat2/master/doc/PCA.png"><img alt="https://raw.githubusercontent.com/raw-lab/mercat2/master/doc/PCA.png" src="https://raw.githubusercontent.com/raw-lab/mercat2/master/doc/PCA.png" style="width: 600px;" /></a>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
