@@ -40,16 +40,3 @@ extensions = [
 
 
 
-from sphinxcontrib.tikz import tikz
-
-# Define the table of contents items
-toc_items = [
-    {
-        'title': 'Ivy',
-        'pages': ['new-page']
-    }
-]
-
-# Generate the table of contents
-toc = tikz.TikzPicture()
-toc.add_toc(toc_items, maxdepth=2, caption='Ivy')
