@@ -2,4 +2,4 @@
    :maxdepth: 2
 
 
-New page for tutorial 
+new-page
