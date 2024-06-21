@@ -35,3 +35,18 @@ extensions = [
    'sphinx.ext.autodoc',
    'sphinx.ext.autosummary',
 ]
+
+multiproject_projects = {
+    "user": {
+        "use_config_file": False,
+        "config": {
+            "project": "Read the Docs user documentation",
+        },
+    },
+    "dev": {
+        "use_config_file": False,
+        "config": {
+            "project": "Read the Docs developer documentation",
+        },
+    },
+}
