@@ -561,7 +561,7 @@ a:hover tt, a:hover code {
     }
 
     .github {
-        display: none;
+        display: block;
     }
 
 
