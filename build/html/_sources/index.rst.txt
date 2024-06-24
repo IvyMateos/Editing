@@ -2,7 +2,9 @@
    sphinx-quickstart on Mon Jun 10 11:19:00 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-   
+
+.. include:: page1.rst 
+      
 Ivy MG
 ================================================
 |paper| |preprint| |install with| |Anaconda.org| |Last updated| |last updated| |Platforms| |license| |Downloads| |downloads| |downloads/month| |downloads/week|
@@ -283,7 +285,6 @@ Copywrite
 This is copyrighted by University of North Carolina at Charlotte, Jose L. Figueroa III, Andrew Redinbo, and Richard Allen White III. All rights reserved. DeGenPrime is a bioinformatic tool that can be distributed freely for academic use only. Please contact us for commerical use. The software is provided “as is” and the copyright owners or contributors are not liable for any direct, indirect, incidental, special, or consequential damages including but not limited to, procurement of goods or services, loss of use, data or profits arising in any way out of the use of this software.
 
 
-.. include:: page1.rst
 
 
 
