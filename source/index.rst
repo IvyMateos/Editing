@@ -6,7 +6,7 @@
 
    
 
-Welcome to MerCat2!
+Welcome to tutorial!
 ================================================
 |paper| |preprint| |install with| |Anaconda.org| |Last updated| |last updated| |Platforms| |license| |Downloads| |downloads| |downloads/month| |downloads/week|
 
