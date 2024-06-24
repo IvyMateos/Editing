@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :class: hidden-toctree-link
 
    page1
    

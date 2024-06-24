@@ -706,3 +706,8 @@ nav#breadcrumbs li+li:before {
         display: none;
     }
 }
+
+/*something i added*/
+.hidden-toctree-link {
+  display: none;
+}
