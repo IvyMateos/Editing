@@ -289,5 +289,6 @@ This is copyrighted by University of North Carolina at Charlotte, Jose L. Figuer
 
 .. toctree::
    :maxdepth: 2
+   :caption: My documentation
 
-   page1
+   .. rubric:: page1
