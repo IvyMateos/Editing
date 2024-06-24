@@ -291,4 +291,3 @@ This is copyrighted by University of North Carolina at Charlotte, Jose L. Figuer
    :maxdepth: 2
 
    page1
-   index
