@@ -12,7 +12,7 @@
 
 
    
-Welcome MerCat2!
+Ivy MG
 ================================================
 |paper| |preprint| |install with| |Anaconda.org| |Last updated| |last updated| |Platforms| |license| |Downloads| |downloads| |downloads/month| |downloads/week|
 
