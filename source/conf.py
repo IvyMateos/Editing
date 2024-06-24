@@ -44,6 +44,6 @@ html_sidebars = {
     'index': [],
 }
 
-html_css_files = ['alabaster.css']
+
 
 
