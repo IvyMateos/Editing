@@ -513,7 +513,7 @@ a:hover tt, a:hover code {
 @media screen and (max-width: 870px) {
 
     div.sphinxsidebar {
-    	display: none;
+    	display: block; // Never hide the sidebar
     }
 
     div.document {
