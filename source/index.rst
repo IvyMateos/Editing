@@ -2,15 +2,7 @@
    sphinx-quickstart on Mon Jun 10 11:19:00 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
-.. toctree::
-   :maxdepth: 2
-
-   page1
-   page2
-
-
-
+.. include:: page1.rst
    
 Ivy MG
 ================================================
