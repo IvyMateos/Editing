@@ -39,4 +39,8 @@ extensions = [
 ]
 
 
+html_sidebars = {
+    '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'],
+}
+
 
